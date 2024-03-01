@@ -12,7 +12,7 @@ class Rectangle {
 
     static void getArea() {
         float area = (xSide * ySide);
-        System.out.println("Площа"+area);
+        System.out.println("Площа: "+area);
     }
 
     static void getDiagonal() {
@@ -42,7 +42,7 @@ public class Lab_2 {
             x = obviouslyScanner.nextFloat();
             y = obviouslyScanner.nextFloat();
         } catch (Exception e) {
-            System.out.println("Something went wrong. Please enter a number.");
+            System.out.println("Помилка, введіть цілі числа.");
         }
         Rectangle thisIsARectangle = new Rectangle(x,y);
         Rectangle.getPerimeter();

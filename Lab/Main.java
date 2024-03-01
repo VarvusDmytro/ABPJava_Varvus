@@ -8,13 +8,13 @@ public class Main {
     public static void mainMenu(){
         System.out.println("Choose the lab:");
         Scanner scanner = new Scanner(System.in);
-        int lab = scanner.nextInt();
-        switch (lab) {
+        int Lab = scanner.nextInt();
+        switch (Lab) {
             case 1:
                 Lab_1 Lab_1 = new Lab_1();
                 mainMenu();
             case 2:
-                Lab_2 lab_2 = new Lab_2();
+                Lab_2 Lab_2 = new Lab_2();
                 mainMenu();
             case 3:
                 //Lab_3 lab_3 = new Lab_3();

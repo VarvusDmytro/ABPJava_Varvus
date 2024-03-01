@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ABPJava_Varvus.iml" filepath="$PROJECT_DIR$/.idea/ABPJava_Varvus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ASD/ASD.iml" filepath="$PROJECT_DIR$/ASD/ASD.iml" />
     </modules>
   </component>
 </project>
